@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App/App';
+import Toggle from './Toggle/Toggle';
+
 import * as serviceWorker from './serviceWorker';
  
 ReactDOM.render(
-  <App />,
+  <Toggle />,
   document.getElementById('root')
 );
 
